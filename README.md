@@ -32,7 +32,7 @@ gcc driver.c cset.c
 
 ## Usage
 
-The APIs implements a data structure `CodeSet`, which allows users to store distinct codes (assumed to be positive integers smaller than 2^63) and makes sure there are no duplicates. It supports the following functions:
+The APIs implement a data structure `CodeSet`, which allows users to store distinct codes (assumed to be positive integers smaller than 2^63) and make sure there are no duplicates. They support the following functions:
 `cset_init`: initializes an empty CodeSet.
 `cset_destroy`: deletes the CodeSet and free its memory.
 `cset_insert`: inserts the given code into the CodeSet.
